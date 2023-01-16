@@ -1,0 +1,27 @@
+
+/* Asegurar que los elementos sean fáciles de tocar en dispositivos móviles */
+.video-container p {
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente en pantallas móviles */
+}
+
+/* Optimizar las imágenes */
+body {
+    background-image: url('/assets/imgs/fondo.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para que se adapte al tamaño de pantalla */
+    background-position: center;
+    height: 120vh;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    font-family: 'Cyberpunk', sans-serif;
+}
+
+h1 {
+    color: red;
+    text-shadow: 1px 1px 0px black; 
+    margin: 30px;
+}
+p{   color:cyan;
+    font-size: 30px;
+    margin: 40px;
+}
+   
